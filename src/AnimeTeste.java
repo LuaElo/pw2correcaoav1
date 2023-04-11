@@ -11,6 +11,7 @@ public class AnimeTeste {
         meuAnime.classificacao = 14;
         meuAnime.dataLancamento = LocalDate.of(1992, 10, 10);
         meuAnime.genero = "Ação";
+        System.out.println(meuAnime.mostrar());
     }
 
 }
